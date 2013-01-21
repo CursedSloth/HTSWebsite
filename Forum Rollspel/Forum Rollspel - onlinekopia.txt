@@ -1,0 +1,13 @@
+Forum Rollspel (Temp. Namn)
+
+På detta forum skall jag bedriva rollspel för allmänheten. 
+Man skall kunna skapa ett konto som man sedan kan logga in på. 
+Då man skapar sig sin identitet, så ska en profilprocedur starta som guidar användaren igenom en process, där man bl.a. beskriver sig själv osv.
+Inloggade användare ska kunna skapa upp till ett antal trådar i forumet och kunna kommentera på andras forum.
+Varje gång en användare kommenterar på en tråd ska trådskaparen och tidigare kommentatorer få ett meddelande som berättar vem som gjort ett inlägg och i vilken tråd.
+Som admin ska jag kunna uppgradera specifika användare till moderatorer eller ge dem en ny status.
+Detta innebär att det ska finnas en slags inbyggd editor som moderatorer kommer kunna använda för att s.k. moderera innehållet.
+Om möjligt, så ska man kunna ladda upp en profilbild till sitt konto. 
+Admin och moderatorer skall kunna ladda upp bilder i trådar. 
+Privata meddelanden mellan användare skall kunna skickas och tas emot. 
+Admin och moderatorer ska kunna sätta tidslimiterade bans på användare som inte beter sig ordentligt, men bara admin ska kunna sätta permanenta bans.
