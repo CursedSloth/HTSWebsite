@@ -8,11 +8,11 @@ if($num==0) {
     echo '<strong>Your question is empty</strong>';
 }
 else {
-echo "<ol>"
-for ($i=0;$i<$num;$i++)) {
+echo "<ol>";
+for ($i=0;$i<$num;$i++) {
     $temp = mysql_fetch_array($result);
 	echo "<li>" . $temp[namn] . "</li>";
 }
-echo "</ol>"
+echo "</ol>";
 }
 ?>
