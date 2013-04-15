@@ -27,11 +27,10 @@ Uppgifterna nedan ska sedan lösas utan att fråga mig om hjälp.
 
 MVG
 
-
 Klara först alla uppfiter på G-nivån och VG-nivån.
 I uppgifterna nedan ska du visa på stor självständighet när du löser dem. Du ska också arbeta snabbt och effektivt.
 * Presentera din sida muntligt för mig och en mindre grupp av dina klasskamrater.
-* Förverkliga  en webbsajt som fungerar till det du har tänkt dig.
+* Förverkliga en webbsajt som fungerar till det du har tänkt dig.
 * Sajten ska innehålla ett flertal tabeller som användaren kan addera information till, samt söka i och få rapporter och statistik ifrån. Dessa ska fungera bra tillsammans som en helhet.
 * * Svara på frågorna i rapporten på MVG nivå.  
   -- Förklara vilken data man inte får ha i en databas, motivera detta utifrån olika källor. Förklara särskilt varför källorna du använt är trovärdiga.
