@@ -14,7 +14,13 @@
             </div>
             <div id="left">
 					<div class="meny">
-						Menyer
+						<ul>
+						<li><a href="sida1.php">Meny 1</a></li>
+						<li><a href="sida2.php">Meny 2</a></li>
+						<li><a href="sida3.php">Meny 3</a></li>
+						<li><a href="sida4.php">Meny 4</a></li>
+						<li><a href="sida5.php">Meny 5</a></li>
+						</ul>
 					</div>
             </div>
             <div id="center-right">
