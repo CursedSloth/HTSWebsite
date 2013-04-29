@@ -1,0 +1,63 @@
+<?php
+include '../Forum_Rollspel/connect.php';
+?>  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">  
+
+
+<!-- Kom ihåg att logga in till databasen först! -->
+<?php
+         $query = "SELECT name FROM user WHERE name='$_POST[myUser]' AND password='$_POST[myPassword]'";
+         //echo '<em> ' . $query . ' </em>';
+         $result = mysql_query($query);
+		 session_start();
+		 session_unset();
+         if (mysql_numrows($result) == 1) {
+		      $_SESSION['session_user']=$_POST[myUser];
+			  header('Location: index.php');
+		 }
+		 else {
+			  header('Location: login.html');
+		 }
+		
+?>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html charset=latin-1" />
+        <link rel="stylesheet" title="magnum" type="text/css" href="./CSS/magnum.css" />
+		<link rel="alternate stylesheet" title="none" type="text/css" href="../CSS/empty.css.css" />	  
+        <title>Forum Rollspel</title>	
+    </head>
+    <body>
+        <div id="content">
+            <div id="top">
+               <div id="banner">Rollspel, På forum</div>
+            </div>
+            <div id="left">
+					<div class="meny">
+						Menyer
+					</div>
+            </div>
+            <div id="center-right">
+				Forum Rollspel
+                <div id="info">
+				<h1 class="dokument-item-header">Inlägg och dylikt</h1>
+				<p class="info">
+				<!-- Ett formulär -->
+<form action="insertMeddelande.php" method="post">
+Username: <input type="text" name="myUserName">
+Password: <input type="text" name="myPassword">
+<input type="submit">
+</form>
+				<br> Site under construction.</p>
+</div>
+</div>
+
+
+			<div id="footer">
+				<p> &copy; 2013 Victor Ingvarsson.# 
+				</p>
+			</div>
+        </div>
+    </body>
+</html>
