@@ -1,9 +1,11 @@
-Ôªø<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+<?php
+include '../Forum_Rollspel/connect.php';
+?>  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
 		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">  
-
     <head>
-        <meta http-equiv="Content-Type" content="text/html charset=utf-8" />
+        <meta http-equiv="Content-Type" content="text/html charset=latin-1" />
         <link rel="stylesheet" title="magnum" type="text/css" href="./CSS/magnum.css" />
 		<link rel="alternate stylesheet" title="none" type="text/css" href="../CSS/empty.css.css" />	  
         <title>Forum Rollspel</title>	
@@ -11,7 +13,7 @@
     <body>
         <div id="content">
             <div id="top">
-               <div id="banner">Rollspel, P√• forum</div>
+               <div id="banner">Rollspel, PÂ forum</div>
             </div>
             <div id="left">
 					<div class="meny">
@@ -24,8 +26,15 @@
             <div id="center-right">
 				Forum Rollspel
                 <div id="info">
-				<h1 class="dokument-item-header">Inl√§gg och dylikt</h1>
-				<p class="info">H√§r kommer man att se alla inl√§gg och dylikt.<br> Site under construction.</p>
+				<h1 class="dokument-item-header">Inl‰gg och dylikt</h1>
+				<p class="info">
+				<!-- Ett formul‰r -->
+<form action="login.php" method="post">
+Username: <input type="text" name="myUserName">
+Password: <input type="text" name="myPassword">
+<input type="submit">
+</form>
+				<br> Site under construction.</p>
 </div>
 </div>
 
